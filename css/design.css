@@ -1,0 +1,231 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+p, h1, h2{
+    font-family: Hanken Grotesk;
+}
+
+.resultado{
+    color: whitesmoke;
+}
+
+p{
+    font-size: 18px;
+}
+
+.displayResultado h1{
+    font-size: 56px;
+    margin: 0;
+    
+}
+.displayResultado p{
+    font-size: 16px;
+    margin: 0;
+    opacity: .6;
+}
+
+section {
+    display: flex;
+    min-width: 368px;
+    min-height: 512px;
+    border-radius: 30px;
+}
+
+.resultado{
+ 
+    border-radius: 30px;
+
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) ) ;
+ 
+   display: block;
+    text-align: center;
+    min-width: 345px;
+    max-width: 345px;
+    min-height: 500px;
+    flex-direction: column;
+}
+
+.resultado .titulo{
+  font-size: 22px;
+  opacity: .7;
+}
+
+.displayResultado{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0) ) ;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.great{
+    text-align: center;
+    margin: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    
+}
+.great p{
+    opacity: .6;
+}
+
+#sumario{
+    background-color: white;
+    min-width: 368px;
+    min-height: 512px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+
+.habilidade{
+    display: flex;
+    justify-content: space-between ;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+
+#memory{
+    background-color: hsla(39, 100%, 56%, 0.1);
+    transition: background-color 0.1s;
+}
+#memory:hover{
+    background-color: hsla(39, 100%, 56%, 0.4);
+}
+
+#verbal{
+    background-color: hsla(166, 100%, 37%, 0.1);
+    transition: background-color 0.1s;
+}
+#verbal:hover{
+    background-color: hsla(166, 100%, 37%, 0.4);
+
+}
+
+#visual{
+    background-color: hsla(234, 85%, 45%, 0.1);
+    transition: background-color 0.1s;
+}
+#visual:hover{
+    background-color: hsla(234, 85%, 45%, 0.4);
+}
+#reaction{
+    background-color: hsla(0, 100%, 67%, 0.1);
+    transition: background-color 0.1s;
+}
+#reaction:hover{
+    background-color: hsla(0, 100%, 67%, 0.4);
+}
+
+
+
+
+
+#reaction .icone{
+    color: hsl(0, 100%, 67%);
+}
+
+#memory .icone{
+    color: hsl(39, 100%, 56%);
+
+}
+#verbal .icone{
+    color:  hsl(166, 100%, 37%);
+
+}
+#visual .icone{
+    color: hsl(234, 85%, 45%) ;
+}
+
+
+
+
+
+
+#sumario h1{
+    margin-left: 15px;
+}
+
+
+#continue{
+    color: white; 
+    margin: 40px;
+    border-radius: 30px;
+    background-color: hsl(224, 30%, 27%);
+    text-align: center;
+    padding: 16px;
+    transition: box-shadow 0.3s;
+}
+#continue:hover{
+    box-shadow: 0 0 10px hsla(224, 100%, 51%, 1);
+}
+
+aside h1{
+    font-size: 25px;
+    color: hsl(224, 30%, 27%);
+}
+
+.habilidade p{
+    font-size: 18px;
+    color: hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+
+.habilidade span{
+    color: #919aa3;
+    font-weight: normal;
+}
+
+@media (max-width : 1000px){
+    html{
+        margin: 0;
+    }
+    body{
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    section {
+        
+        min-width: 378px;
+        max-width: 378px;
+       
+     
+        align-items: center;
+        flex-direction: column;
+
+    }
+    article.resultado{
+        border-radius: 0 0 20px 20px !important;
+        max-height: 100%;
+        min-height: 100%;
+        max-width: 375px;
+    }
+    div.great{
+        text-align: center;
+       
+        margin: 20px;
+        margin-bottom: 30px;
+    }
+    div.great p{
+        margin: 0;
+    }
+}

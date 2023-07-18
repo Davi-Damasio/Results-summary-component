@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="css/design.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <article class="resultado">
+        <h1 class="titulo">Your Result</h1>
+        <div class="displayResultado">
+          <h1>76</h1>
+
+          <p id="de">of 100</p>
+        </div>
+        <div class="great">
+          <h1>Great</h1>
+          <p>
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </article>
+      <aside id="sumario">
+
+        <h1>Summary</h1>
+
+        <div class="habilidade" id="reaction">
+          <p class="icone">
+            <img src="assets/images/icon-reaction.svg" /> Reaction
+          </p>
+          <p>80<span class="cinza"> / 100</span></p>
+        </div>
+        <div class="habilidade" id="memory">
+          <p class="icone">
+            <img src="assets/images/icon-memory.svg" /> Memory
+          </p>
+          <p>92<span class="cinza"> / 100</span></p>
+        </div>
+
+        <div class="habilidade" id="verbal">
+          <p class="icone">
+            <img src="assets/images/icon-verbal.svg" /> Verbal
+          </p>
+          <p>61<span class="cinza"> / 100</span></p>
+        </div>
+
+        <div class="habilidade" id="visual">
+          <p class="icone">
+            <img src="assets/images/icon-visual.svg" /> Visual
+          </p>
+          <p>72 <span class="cinza"> / 100</span></p>
+        </div>
+
+        <p id="continue">Continue</p>
+      </aside>
+    </section>
+  </body>
+</html>
